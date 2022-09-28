@@ -4,34 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header> 
-        <nav >
-          <!--LOGO DE LAS PAGINAS-->
-          
-      
-          <h1 class="logo-image">MENTHABAZAR</h1>
-          
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand logo-image" href="#">MENTHABAZAR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link newitems" aria-current="page" href="new-items.html">New Items</a>
+              <a class="nav-link vertodo" href="galeria.html">Galery</a>
+              <a class="nav-link blog" href="blog.html">Blog</a>
+              <a class="nav-link contacto" href="Index.html">Inicio</a>
+            </div>
+          </div>
+        </div>
       </nav>
-          
-      
-       
-      
-        <!--HIPERVINCULOS DE LAS PAGINAS-->
-      
-      <p class="hipervinculos1">
-        <a class="newitems" href="new-items.html">NEW ITEMS</a>
-        <a class="vertodo" href="ver-todo.html">VER TODO</a>
-        <a class="blog" href="blog.html">BLOG</a>
-        <a class="contacto" href="Index.html">INICIO</a>
-      </p>
-      </div>
+     
       
       
       </header>
+<div class="container">
+      <form>
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Name</label>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2">Email address</label>
+        </div>
+      
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+      
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+          <label class="form-check-label" for="form4Example4">
+            Send me a copy of this message
+          </label>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+      </form>
+    </div>
+
+
+
+
+      
+    <div class="card">
+      <img src="imagenes/foto24.jpg" alt="John" style="width:100%">
+      <h1>Belem P.</h1>
+      <p class="title">CEO & Founder</p>
+      <p>Mentha Bazar</p>
+      <a href="#"><i class="fa fa-dribbble"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <p><button>Contact</button></p>
+    </div>
 
 
 
@@ -55,20 +105,25 @@
 
 
 
-      <footer class="final">
-        <!--FINAL DE SECCION-->
-      
-        <section>
-          <ul>
-            <li><a class="contacto-2" href="contacto.html">Contacto</a></li>
-            <li><a class="homepage-2" href="Index.html">Home Page</a></li>
-            <li><a class="nosotros-2" href="contacto.html">Abous us</a></li>
-        
+<footer>
+  <div class="footer-basic">
+   
+        <div class="social"><a href="https://www.instagram.com/menthabazar.mx/"><i class="icon ion-social-instagram"></i></a><a href="https://m.facebook.com/menthabazar/?ref=page_internal&_rdr"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="Index.html">Home</a></li>
+            <li class="list-inline-item"><a href="contacto.html">Services</a></li>
+            <li class="list-inline-item"><a href="blog.html">About us</a></li>
+            <li class="list-inline-item"><a href="contacto.html">Terms</a></li>
+            <li class="list-inline-item"><a href="contacto.html">Privacy Policy</a></li>
         </ul>
-       </section>
-      
-      
-      
-      </footer> 
+        <p class="copyright">Mentha Bazar © 2018</p>
+    
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

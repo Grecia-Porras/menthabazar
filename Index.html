@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Eczar' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="style.css"> 
     <title>MENTHABAZAR</title>
 </head>
@@ -13,19 +17,23 @@
 <body>
 <!--INICIO DE LA PAGUINA -->
 <header class="menu m1"> 
-
-  <nav>
-    
-    <h1 class="logo-image">MENTHABAZAR</h1>
-     <!--HIPERVINCULOS DE LAS PAGINAS-->
-
-<ol class="hipervinculos1">
-  <li> <a class="newitems" href="new-items.html">NEW ITEMS</a></li>
-  <li> <a class="vertodo" href="ver-todo.html">VER TODO</a></li>
-  <li> <a class="blog" href="blog.html">BLOG</a></li> 
-  <li> <a class="contacto" href="contacto.html">CONTACTO</a></li>
-</ol>
-</nav>
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <h1 class="mentha1">
+      <a class="navbar-brand logo-image" href="#">MENTHABAZAR</a></h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link newitems" aria-current="page" href="new-items.html">New Items</a>
+          <a class="nav-link vertodo" href="galeria.html">Galery</a>
+          <a class="nav-link blog" href="blog.html">Blog</a>
+          <a class="nav-link contacto" href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
 </header>
 
@@ -37,10 +45,10 @@
   <aside class="publicidad p1">
     ASIDE
   </aside> 
-  <main class="seccion-productos">
+  <main class="seccion-productos container">
     <section>
 
-    <img class="imagen-title" src="imagenes/menthabazar.png" />
+    <img class="imagen-title imagentitle" src="imagenes/menthabazar.png"/>
     </section> 
 
 
@@ -71,29 +79,31 @@
 </article>
   
 
-
-  <article class="photo-container">
-    <div class="photos-hijo">
-        <div class="photo-item">
-            <img src="imagenes/recurso5.jpg" alt="Producto 1">
-            </Img>
-            <h4 class="texto-producto">SWEATER</h4>
-        </div>
-        <div class="photo-item">
-            <img src="imagenes/recurso4.jpg" alt="Producto 2"></Img>
-            <h4 class="texto-producto">BOTS</h4>
-        </div>
-        <div class="photo-item">
-            <img src="imagenes/recurso3.jpg" alt="Producto 3"></Img>
-            <h4 class="texto-producto">BAG</h4>
-        </div>
-        <div class="photo-item">
-          <Img src="imagenes/recurso2.jpg"   alt="producto 4"> </Img>
-          <h4 class="texto-producto">NECKLACES</h4>
-        </div>
-    </div>
-      </article>
+<article class="photo-container">
+  <div class="photos-hijo photohijo">
+      <div class="photo-item photoitem">
+          <img src="imagenes/recurso5.jpg" alt="Producto 1">
+          </Img>
+          <h4 class="texto-producto">SWEATER</h4>
+      </div>
+      <div class="photo-item photoitem">
+          <img src="imagenes/recurso4.jpg" alt="Producto 2"></Img>
+          <h4 class="texto-producto">BOTS</h4>
+      </div>
+      <div class="photo-item photoitem">
+          <img src="imagenes/recurso3.jpg" alt="Producto 3"></Img>
+          <h4 class="texto-producto">BAG</h4>
+      </div>
+      <div class="photo-item photoitem">
+        <Img src="imagenes/recurso2.jpg"   alt="producto 4"> </Img>
+        <h4 class="texto-producto">NECKLACES</h4>
+      </div>
+  </div>
+    </article>
   </section>
+
+
+
 <section>
 <div >
 <img class="fotos2" src="imagenes/recurso1.jpg" alt="foto2" > </img>
@@ -101,8 +111,13 @@
 </div> 
 </section>
 
+
+
+
+
+
 <section>
-  <div class="arti1">
+  <div class="arti1 parrafo2">
     
       <p class="texto-final1">La Industria textil es la segunda mas contaminante del planeta
         despues del petroleo,sin embargo es una de nuestas mejores
@@ -136,19 +151,28 @@
 
 
   <!--FINAL DE SECCION-->
-  <footer class="footer">
-  <section>
-    <ul>
-      <li><a class="contacto-2" href="contacto.html">Contacto</a></li>
-      <li><a class="homepage-2" href="Index.html">Home Page</a></li>
-      <li><a class="nosotros-2" href="contacto.html">Abous us</a></li>
-  
-  </ul>
- </section>
+  <footer>
+    <div class="footer-basic">
+     
+          <div class="social"><a href="https://www.instagram.com/menthabazar.mx/"><i class="icon ion-social-instagram"></i></a><a href="https://m.facebook.com/menthabazar/?ref=page_internal&_rdr"><i class="icon ion-social-facebook"></i></a></div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="Index.html">Home</a></li>
+              <li class="list-inline-item"><a href="contacto.html">Services</a></li>
+              <li class="list-inline-item"><a href="blog.html">About us</a></li>
+              <li class="list-inline-item"><a href="contacto.html">Terms</a></li>
+              <li class="list-inline-item"><a href="contacto.html">Privacy Policy</a></li>
+          </ul>
+          <p class="copyright">Mentha Bazar © 2018</p>
+      
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
 
-
-</footer> 
 </body>
+
 
 </html>

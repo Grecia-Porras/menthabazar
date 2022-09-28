@@ -4,53 +4,227 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header> 
-        <nav >
-          <!--LOGO DE LAS PAGINAS-->
-          
-      
-          <h1 class="logo-image">MENTHABAZAR</h1>
-          
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand logo-image" href="#">MENTHABAZAR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link newitems" aria-current="page" href="Index.html">Inicio</a>
+              <a class="nav-link vertodo" href="galeria.html">Galery</a>
+              <a class="nav-link blog" href="blog.html">Blog</a>
+              <a class="nav-link contacto" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
       </nav>
-          
-      
-       
-      
-        <!--HIPERVINCULOS DE LAS PAGINAS-->
-      
-      <p class="hipervinculos1">
-        <a class="newitems" href="Index.html">INICIO</a>
-        <a class="vertodo" href="ver-todo.html">VER TODO</a>
-        <a class="blog" href="blog.html">BLOG</a>
-        <a class="contacto" href="contacto.html">CONTACTO</a>
-      </p>
-      </div>
-      
-      
       </header>
 
 
 
+      <h2>NEW ITEMS</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Clothes</button>
+  <button class="btn" onclick="filterSelection('cars')"> Shoes</button>
+  <button class="btn" onclick="filterSelection('people')">Bags</button>
+</div>
 
-      <footer class="final">
-        <!--FINAL DE SECCION-->
-      
-        <section>
-          <ul>
-            <li><a class="contacto-2" href="contacto.html">Contacto</a></li>
-            <li><a class="homepage-2" href="Index.html">Home Page</a></li>
-            <li><a class="nosotros-2" href="contacto.html">Abous us</a></li>
+
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="imagenes/foto13.jpg" alt="Mountains" style="width:100%">
+      <h4>Lenceria</h4>
+      <p>Vestido lencero súper romántico en color perla.✨Se cierra por detrás y sus tirantes son ajustables. 🦋
+
+        ♥ Marca: IN BLOOM
+        ♥ Talla: M
+        ♥ Tuyo por: $199
         
-        </ul>
-       </section>
-      
-      
-      
-      </footer> 
+        Medidas:
+        ✺ Largo 80cm
+        ✺ Cintura Oversized
+        ✺ Busto 80cm</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="imagenes/foto19.jpg" alt="Lights" style="width:100%">
+      <h4>Top</h4>
+      <p>Sostén romántico de encaje en color lila.✨
+         🦋
+        
+        ♥ Marca: Victoria’s Secret
+        ♥ Talla: 36C
+        ♥ Tuyo por: $99</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="imagenes/foto26.jpg" alt="Nature" style="width:100%">
+      <h4>Pijama</h4>
+      <p>Camisa lencera satinada en color menta.✨
+       ♥ Marca: Jones New York
+       ♥ Talla: M
+       ♥ Tuya por: $139
+
+      Medidas:
+       ✺ AxA 48cm
+       ✺ Cintura 88cm
+       ✺ Largo 64cm
+      </p>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="imagenes/foto4.jpg" alt="Car" style="width:100%">
+      <h4>Shoes Pink</h4>
+      <p>Sandalias Rosas. ✨
+        🦋
+        Nuevos sin etiqueta. ✨
+        
+        ♥ Marca: zara
+        ♥ Talla: 4mx
+        ♥ Tuyos por: $320
+        
+        Opción a dos pagos semanales de $160</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="imagenes/foto16.jpg" alt="Car" style="width:100%">
+      <h4>Shoes Fast</h4>
+      <p>Botines planos. ✨ 🦋 Nuevos sin etiqueta. ✨ ♥ Marca: zara ♥ Talla: 4mx ♥ Tuyos por: $320 Opción a dos pagos semanales de $160</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="imagenes/foto7.jpg" alt="Car" style="width:100%">
+      <h4>Shoes Classic</h4>
+      <p>Botines planos chelsea con cadena. ✨
+        🦋
+        ♥ Marca: Pull&Bear
+        ♥ Talla: 4mx
+        ♥ Tuyos por: $320
+        
+        Opción a dos pagos semanales de $160</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="imagenes/foto5.jpg" alt="People" style="width:100%">
+      <h4>Bag Girl</h4>
+      <p>Bolso mini de fiesta con cadena en color plata. ♥ Marca: Sasha
+        ♥ Tuya por: $79
+        
+        Medidas:
+        •Alto 11cm
+        •Ancho 13cm</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="imagenes/foto30.jpg" alt="People" style="width:100%">
+      <h4>Bag Man</h4>
+      <p>Bolso crossbody en color vino tinto con textura. 🦋
+        Cuenta con una bolsa principal con cierre y un compartimento en la parte exterior. ✨
+
+♥ Marca: Liz Claiborne
+♥ Tuya por: $280
+      </p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="imagenes/foto3.jpg" alt="People" style="width:100%">
+      <h4>Bag Woman</h4>
+      <p>Bolso crossbody de terciopelo en color gris.✨ 🌸 La puedes llevar larguita o más corta.
+
+        ♥ Tuya por: $299</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+
+      <footer>
+        <div class="footer-basic">
+         
+              <div class="social"><a href="https://www.instagram.com/menthabazar.mx/"><i class="icon ion-social-instagram"></i></a><a href="https://m.facebook.com/menthabazar/?ref=page_internal&_rdr"><i class="icon ion-social-facebook"></i></a></div>
+              <ul class="list-inline">
+                  <li class="list-inline-item"><a href="Index.html">Home</a></li>
+                  <li class="list-inline-item"><a href="contacto.html">Services</a></li>
+                  <li class="list-inline-item"><a href="blog.html">About us</a></li>
+                  <li class="list-inline-item"><a href="contacto.html">Terms</a></li>
+                  <li class="list-inline-item"><a href="contacto.html">Privacy Policy</a></li>
+              </ul>
+              <p class="copyright">Mentha Bazar © 2018</p>
+          
+      </div>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     
+      <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+        
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        
+        
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
 </body>
 </html>
