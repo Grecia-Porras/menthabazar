@@ -1,0 +1,608 @@
+
+
+/* header titulo y menu principal */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+.mentha1 {
+    background-color: rgb(0, 0, 0);
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    border: solid 10px; color: #000;
+    display: inline-block;
+    
+}
+
+.logo-image{
+    background-color: rgb(255, 152, 207);
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10PX;
+
+}
+/*ENLACES*/
+
+.hipervinculos1{
+    background-color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+    
+}
+
+
+.newitems{
+    color: rgb(246, 246, 156);
+    
+   
+    
+}
+
+.vertodo{
+    color: rgb(175, 250, 250);
+   
+   
+   
+    } 
+.blog{
+    color: rgb(215, 172, 255);
+   
+    
+   
+}
+
+.contacto{
+    color: rgb(169, 247, 177);
+   
+    
+   
+  
+ }
+
+/*imagen principal mentha bazar*/
+
+.imagen-title{
+  
+    display:block;
+    margin:auto;
+    width: 500px;
+    padding: 30px;
+    background-color: #d1a7ba;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: -1px 24px 41px -2px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 24px 41px -2px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 24px 41px -2px rgba(0,0,0,0.35);
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+
+
+/*body SECCION PRODUCTOS*/
+
+
+
+.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.texto{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: negrita;
+    text-align: center;
+}
+
+.seccion2{
+    text-decoration: none; color: rgb(0, 0, 0);
+    font-style: initial;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    text-align: left;
+    font-size: 20px ;
+    text-shadow: 5px 5px 10px #ff2ab8;
+    
+}
+
+.photo-container{
+   
+   
+    display: flex;
+    padding: 100px;
+    background-color: rgb(162, 147, 147);
+    border: 2px  #000;
+}
+
+.photos-hijo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+.photo-item{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid; color: rgb(0, 0, 0);
+    background-color: rgb(207, 193, 193);
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    color: #000;
+    box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    position: relative;
+    justify-items: stretch;
+   
+}
+
+.photo-item:hover {
+    outline: 1px solid #E600FF;
+    transition: outline 5s ease 0s;
+    outline: 10px solid #f6b4d2;
+}
+   
+
+.texto-producto{
+    position: absolute;
+     text-align:center;
+    color: rgb(14, 14, 14);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    bottom: 0%
+    color: rgb(254, 220, 220);
+    background-color: rgba(76, 76, 76, 0.7);
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+/*SECCION FOTOS 2*/
+
+.fotos2{
+    width: 40%;
+    height: 40%;
+    align-content: space-between;
+    margin: 4% ;color: #000;
+    box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    object-fit: cover;
+ }
+
+.fotos3{
+    width: 40%;
+    height: 40%;
+    align-content: space-between;
+    margin: 4%; color: #000;
+    object-fit: cover;
+    box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+}
+.arti1{
+    overflow-wrap: normal;
+    line-height: 2;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 0%;
+    
+}
+
+.texto-final1{
+     text-align:center;
+     font-size: 80%;
+     font-family: 'Eczar';font-size: 22px;
+     text-shadow: 5px 5px 10px #A54DC3;
+     white-space: pre-line;
+     
+ 
+ }
+
+ .texto-final {
+    
+    font-size: 80%;
+    font-family: 'Eczar';font-size: 22px;
+    
+    text-shadow: 5px 5px 10px #ff2ab8;
+    white-space: pre-line;
+    
+}
+
+.parrafo2{
+    text-align: center;
+   
+}
+
+
+
+
+/* footer*/
+
+
+
+.layout{
+    width: 100%;
+  
+    display: flex;
+    gap: 16px;
+  }
+  
+  .grow1{ flex-grow: 1; 
+padding: 5%;
+
+
+}
+
+.footer-basic{
+    padding:40px 0;
+    background-color:#ddcbcb;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid rgb(196, 163, 163);
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+
+
+.publicidad{
+    background-color: #F1DDBF;
+    grid-area: aside-grid;
+
+}
+
+
+.seccion-productos{
+    background-color: rgb(226, 226, 226);
+    grid-area: section-grid;
+}
+
+
+
+
+ @keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+
+ }
+  }
+
+
+
+
+/*galery page*/
+
+
+
+
+
+
+
+
+
+.galery{
+    font-family: 'Bangers';font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    background-color: rgb(110, 204, 255);
+  }
+  
+ 
+  .column1 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+/*contacto*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+
+
+
+
+
+
+
+/*new items*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn.active {
+    background-color: #666;
+     color: white;
+  }
+
+  
+/*Blog about us*/
+
+
+
+
+
+
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #c790a1;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE FINAL*/
+/* media queries*/
+
+
+p {
+    font-size: 20px;
+    display: inline;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* mobile */
+@media only screen and (max-width:450px) {
+    body {
+        background-color: rgb(184, 210, 211);
+    }
+    p{
+        font-size: 12px;
+    }
+    .imagentitle{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .photohijo{
+        display: flex;
+       flex-direction: column;
+    
+      
+    }
+    
+}
+
+
+/* tablet */
+@media only screen and (min-width:451px) and (max-width:960px) {
+    body {
+        background-color: rgb(215, 133, 171);
+        
+    }
+    .imagentitle{
+       
+    }
+}
+
+/* desktop */
+@media only screen and (min-width:961px) {
+    body {
+        background-color: rgb(203, 203, 203);
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+  }
+/*pagina newitems*/
+
+
+  
+
