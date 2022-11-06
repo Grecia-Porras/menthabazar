@@ -8,8 +8,8 @@
     display:block;
     margin:auto;
     width: 500px;
-    padding: 30px;
-    background-color: #d1a7ba;
+    padding: 2%;
+    background-color: hsl(315, 100%, 99%);
     height: 500px;
     object-fit: cover;
     box-shadow: -1px 24px 41px -2px rgba(0,0,0,0.35);
@@ -64,104 +64,70 @@
 }
 
 
-
 .seccion2{
     text-decoration: none;color: rgb(196, 127, 127);
     font-style: initial;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     text-aling left;
     font-size: 20px ;
-    text-shadow: 5px 5px 10px #ff2ab8;
+    text-shadow: 5px 5px 10px #d59bc1;
     
 }
 
-.photo-container{
-   
-   
-    display: flex;
-    padding: 100px;
-    background-color: rgb(162, 147, 147);
-    border: 2px  #000;
-   
 
-.photos-hijo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    @media only screen and (max-width:450px) {
-        flex-direction:column-reverse;
-    
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
   }
-  @media only screen and (min-width:451px) and (max-width:960px) {
-   flex-direction: column-reverse;
-   justify-content: space-around;
-   align-items: stretch;
-   justify-items:center;
-   margin-left: 100px;
-
-}
-@media only screen and (min-width:961px) {
-  justify-content: space-around;
-  justify-items: center;
-  margin-right: 200px;
 }
 
-.photo-item{
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid; color: rgb(0, 0, 0);
-    background-color: rgb(207, 193, 193);
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    color: #000;
-    box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
-    -webkit-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
-    -moz-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
-    position: relative;
-   
-    @media only screen and (max-width:450px) {
-        width: 5%;
-        height: 5%;
-        justify-content:space-evenly;
- }
- @media only screen and (min-width:451px) and (max-width:960px) {
-  width: 8%;
-  height: 8%;
-  
-    }  
-    
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-
-
-.photo-item:hover {
-    outline: 1px solid #E600FF;
-    transition: outline 5s ease 0s;
-    outline: 10px solid #f6b4d2;
-
-  
-}
-}
- }
-}
- 
-.texto-producto {
-    position: absolute;
-     text-align:center;
-    color: rgb(14, 14, 14);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    bottom: 2%
-    background-color rgba(76, 76, 76, 0.7);
+@media only screen and (max-width: 500px) {
+  .responsive {
     width: 100%;
-    padding: 5px;
-    font-size: 20px;
-     }
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
 
 .fotos-abajo{ 
+  float: left;
 .fotos2 {
     width: 40%;
     height: 40%;
@@ -194,7 +160,7 @@
     padding-right: 100px;
     padding-bottom: 50px;
     padding-top: 0%;
- 
+ float: center;
     .parrafo2 {
       text-align: center;
 
@@ -207,7 +173,7 @@
     text-align:center;
     font-size: 80%;
     font-family: 'Eczar';font-size: 22px;
-    text-shadow: 5px 5px 10px #A54DC3;
+    text-shadow: 5px 5px 10px #e1bea0;
     white-space: pre-line;
     @media only screen and (max-width:450px) {
         font-size: 70%;
@@ -223,7 +189,7 @@
     font-size: 80%;
     font-family: 'Eczar';font-size: 22px;
     
-    text-shadow: 5px 5px 10px fuchsia;
+    text-shadow: 5px 5px 10px rgb(162, 205, 216);
     white-space: pre-line;
     @media only screen and (max-width:450px) {
         font-size: 70%;
@@ -379,7 +345,14 @@
     color: white;
   }
 
-
+  .container1 {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+    box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 24px 41px 16px rgba(0,0,0,0.35);
+  }
 
 
 
